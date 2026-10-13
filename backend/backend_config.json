@@ -1,0 +1,10 @@
+{
+  "service_name": "Disaster Tweet Classification API",
+  "model_version": "DTM_20261013_020912",
+  "bundle_file": "production_bundle.cloudpickle",
+  "serializer": "cloudpickle",
+  "max_tweet_characters": 1000,
+  "max_request_bytes": 16384,
+  "log_raw_tweet_text": false,
+  "load_model_at_startup": true
+}
