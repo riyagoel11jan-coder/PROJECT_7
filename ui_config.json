@@ -1,0 +1,32 @@
+{
+  "app_name": "Disaster Tweet Intelligence",
+  "app_subtitle": "Production NLP Classification Interface",
+  "api_url": "http://127.0.0.1:5000",
+  "model_name": "Logistic Regression",
+  "model_version": "DTM_20261013_020912",
+  "feature_id": "Locked final pipeline",
+  "score_type": "Probability",
+  "decision_threshold": 0.5,
+  "max_characters": 1000,
+  "probability_caution_level": 0.65,
+  "evaluation_dataset": "Protected test set",
+  "performance": {
+    "accuracy": 0.7924107142857143,
+    "precision": 0.7405405405405405,
+    "recall": 0.7527472527472527,
+    "f1": 0.7465940054495913,
+    "roc_auc": 0.8573218761188686,
+    "pr_auc": 0.8358356847522442
+  },
+  "confusion_matrix": {
+    "tn": 654,
+    "fp": 144,
+    "fn": 135,
+    "tp": 411
+  },
+  "class_mapping": {
+    "0": "Not a Disaster",
+    "1": "Real Disaster"
+  },
+  "disclaimer": "This classifier is an analytical tool and is not an official emergency-alert or emergency-response authority."
+}
